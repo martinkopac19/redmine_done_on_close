@@ -1,0 +1,3 @@
+en:
+  done_on_close_label_statuses: "Set % Done to 100 % in these statuses"
+  done_on_close_info: "Applies only when the issue moves into the status, so a closed issue can still be given a lower value afterwards. Parent issues whose % Done is derived from subtasks are left alone. Existing issues are not changed."

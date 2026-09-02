@@ -1,0 +1,20 @@
+<%# Ponúkajú sa len uzavreté stavy — pri otvorenom stave by dorovnanie na 100 % nedávalo zmysel. %>
+<div class="box tabular">
+  <p>
+    <label><%= l(:done_on_close_label_statuses) %></label>
+    <span>
+      <% IssueStatus.where(:is_closed => true).order(:position).each do |status| %>
+        <label class="block">
+          <%= check_box_tag 'settings[status_ids][]',
+                            status.id,
+                            DoneOnClose.enabled_status_ids.include?(status.id),
+                            :id => "settings_status_ids_#{status.id}" %>
+          <%= status.name %>
+        </label>
+      <% end %>
+      <%# Bez tohto by sa pri odškrtnutí VŠETKÝCH stavov kľúč neposlal a zostala by stará hodnota. %>
+      <%= hidden_field_tag 'settings[status_ids][]', '', :id => nil %>
+    </span>
+  </p>
+  <p><em class="info"><%= l(:done_on_close_info) %></em></p>
+</div>

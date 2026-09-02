@@ -1,0 +1,3 @@
+cs:
+  done_on_close_label_statuses: "Nastavit % hotovo na 100 % v těchto stavech"
+  done_on_close_info: "Uplatní se jen při přechodu do stavu, takže zavřenému úkolu jde i potom nastavit nižší hodnotu. Nadřazené úkoly, kterým se % počítá z podúkolů, zůstávají beze změny. Existující úkoly se nemění."
