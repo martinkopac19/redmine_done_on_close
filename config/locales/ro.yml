@@ -1,0 +1,3 @@
+ro:
+  done_on_close_label_statuses: "Setează Realizat (%) la 100 % în aceste stări"
+  done_on_close_info: "Se aplică doar când tichetul trece în starea respectivă, așa că unui tichet închis i se poate seta ulterior o valoare mai mică. Tichetele părinte al căror Realizat (%) este calculat din subtichete nu sunt modificate. Tichetele existente nu se schimbă."

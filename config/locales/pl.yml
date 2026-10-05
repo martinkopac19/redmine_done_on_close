@@ -1,0 +1,3 @@
+pl:
+  done_on_close_label_statuses: "Ustaw % Wykonania na 100 % w tych statusach"
+  done_on_close_info: "Działa tylko przy przejściu zagadnienia do danego statusu, więc zamkniętemu zagadnieniu można potem nadal ustawić niższą wartość. Zagadnienia nadrzędne, których % Wykonania wynika z podzagadnień, pozostają bez zmian. Istniejące zagadnienia nie są zmieniane."

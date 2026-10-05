@@ -1,0 +1,3 @@
+hu:
+  done_on_close_label_statuses: "A Készültség (%) legyen 100 % ezekben a státuszokban"
+  done_on_close_info: "Csak akkor érvényes, amikor a feladat ebbe a státuszba kerül, így egy lezárt feladatnak utólag is adható alacsonyabb érték. Azok a szülő feladatok, amelyek készültsége az alfeladatokból számolódik, változatlanok maradnak. A meglévő feladatok nem változnak."
